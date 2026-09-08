@@ -1,0 +1,10 @@
+# Cloudflare Pages lee este archivo tal cual. Las librerias y la tipografia
+# llevan version en el nombre o no cambian nunca, asi que se pueden guardar en
+# cache un ano. El HTML, el CSS y el JS del sitio no llevan cabecera propia:
+# valen los valores por defecto de Pages, que revalidan en cada visita.
+
+/lib/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/bigshoulders.woff2
+  Cache-Control: public, max-age=31536000, immutable

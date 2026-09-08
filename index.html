@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07080b">
+<meta name="description" content="Víctor Alberto González Mejorado — Ingeniería TI, desarrollo de sistemas, automatización y mejora de procesos.">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Víctor Alberto González Mejorado">
+<meta property="og:description" content="Todo proceso puede mejorar. Ingeniero en TI en Saltillo, Coahuila: construyo sistemas, ordeno procesos y convierto problemas operativos en herramientas que se pueden usar, medir y mejorar.">
+<meta property="og:image" content="og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="es_MX">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2307080b'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%23ffd9a0' stroke-width='1.4'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%23ffd9a0'/%3E%3C/svg%3E">
+<title>Víctor Alberto González Mejorado — Systems / Process / Design</title>
+<link rel="preload" href="bigshoulders.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="pro.css">
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__orb"></div>
+  <div class="loader__copy"><span>VAGM / SYSTEMS</span><b id="loadPct">00</b></div>
+  <div class="loader__line"><i id="loadBar"></i></div>
+</div>
+
+<canvas id="space" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+
+<header class="topbar">
+  <a class="brand" href="#inicio" aria-label="Inicio"><span>V</span><b>VAGM</b></a>
+  <div class="topbar__status"><i></i> <span lang="es">DISPONIBLE PARA PROYECTOS</span><span lang="en">AVAILABLE FOR PROJECTS</span></div>
+  <div class="mandos">
+    <button class="mando" id="idioma" type="button" aria-label="Cambiar idioma / Switch language">
+      <span lang="es">EN</span><span lang="en">ES</span>
+    </button>
+    <button class="mando sound" id="sound" type="button" aria-pressed="false"><span>◉</span> <span lang="es">AMBIENTE</span><span lang="en">AMBIENT</span></button>
+  </div>
+</header>
+
+<div class="progress"><i id="progress"></i></div>
+
+<main id="inicio">
+<section class="hero section" data-section="00">
+  <div class="hero__meta">
+    <span><span lang="es">PORTAFOLIO</span><span lang="en">PORTFOLIO</span> / 2026</span><span>SALTILLO, COAHUILA</span>
+  </div>
+  <div class="hero__grid">
+    <div class="hero__copy">
+      <h1>
+        <span lang="es">Todo proceso<br><em>puede mejorar.</em></span>
+        <span lang="en">Every process<br><em>can improve.</em></span>
+      </h1>
+      <p class="hero__lead">
+        <span lang="es">Construyo sistemas, ordeno procesos y convierto problemas operativos en herramientas que se pueden usar, medir y mejorar.</span>
+        <span lang="en">I build systems, put processes in order, and turn operational problems into tools that can be used, measured, and improved.</span>
+      </p>
+      <div class="hero__actions">
+        <a class="button button--solid" href="#sigr"><span lang="es">Explorar proyectos</span><span lang="en">Explore projects</span> <span>↘</span></a>
+        <a class="button" href="mailto:vyxgonzalez@gmail.com"><span lang="es">Contactar</span><span lang="en">Get in touch</span> <span>↗</span></a>
+      </div>
+    </div>
+    <div class="hero__portrait">
+      <div class="portrait__frame">
+        <img src="victor.jpg" alt="Víctor Alberto González Mejorado">
+        <div class="portrait__scan"></div>
+        <span class="portrait__tag">V / 33.4137° N</span>
+      </div>
+      <div class="portrait__caption">
+        <b>Víctor Alberto<br>González Mejorado</b>
+        <span>
+          <span lang="es">Ingeniero en Tecnologías<br>de la Información</span>
+          <span lang="en">Information Technology<br>Engineer</span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="hero__bottom">
+    <span><span lang="es">DESLIZA PARA ENTRAR</span><span lang="en">SCROLL TO ENTER</span></span><i></i><span>01—08</span>
+  </div>
+</section>
+
+<section class="section profile" data-section="01">
+  <div class="section__head"><span>01 / <span lang="es">PERFIL</span><span lang="en">PROFILE</span></span><small>01</small></div>
+  <div class="split">
+    <div><h2><span lang="es">No empiezo<br>por el código.</span><span lang="en">I don't start<br>with the code.</span></h2></div>
+    <div class="content">
+      <p class="lead">
+        <span lang="es">Empiezo por entender dónde se pierde el tiempo, dónde se rompe el flujo y qué necesita realmente la persona que lo va a usar.</span>
+        <span lang="en">I start by understanding where time gets lost, where the flow breaks, and what the person who'll actually use it really needs.</span>
+      </p>
+      <p>
+        <span lang="es">Ingeniero titulado en Tecnologías de la Información, con experiencia en desarrollo web, automatización documental, diseño de comunicación institucional y gestión de procesos. Mi trabajo cruza esas disciplinas: <strong>detectar la fricción y convertirla en una solución concreta.</strong></span>
+        <span lang="en">Degreed engineer in Information Technology, with experience in web development, document automation, institutional communication design, and process management. My work sits at the intersection of those disciplines: <strong>spotting the friction and turning it into a concrete solution.</strong></span>
+      </p>
+      <div class="principles">
+        <div><b>01</b><span><span lang="es">Observar</span><span lang="en">Observe</span></span><small><span lang="es">Entender el proceso antes de intervenir.</span><span lang="en">Understand the process before stepping in.</span></small></div>
+        <div><b>02</b><span><span lang="es">Construir</span><span lang="en">Build</span></span><small><span lang="es">Resolver con la herramienta adecuada.</span><span lang="en">Solve it with the right tool.</span></small></div>
+        <div><b>03</b><span><span lang="es">Mejorar</span><span lang="en">Improve</span></span><small><span lang="es">Medir, documentar y volver a iterar.</span><span lang="en">Measure, document, and iterate again.</span></small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section project project--featured" id="sigr" data-section="02">
+  <div class="section__head"><span>02 / <span lang="es">PROYECTO DESTACADO</span><span lang="en">FEATURED PROJECT</span></span><small>SIGR / 2026</small></div>
+  <div class="project__intro">
+    <p class="kicker"><span lang="es">SISTEMA INTEGRAL DE GESTIÓN DE RECLUTAMIENTO</span><span lang="en">INTEGRATED RECRUITMENT MANAGEMENT SYSTEM</span></p>
+    <h2><span lang="es">Del papel disperso<br>a un <em>solo sistema.</em></span><span lang="en">From scattered paper<br>to <em>one single system.</em></span></h2>
+    <p class="lead">
+      <span lang="es">Digitalicé el proceso completo de reclutamiento y selección para convertir información dispersa en un flujo trazable, auditable y con responsabilidades claras.</span>
+      <span lang="en">I digitized the entire recruitment and selection process to turn scattered information into a traceable, auditable flow with clear ownership.</span>
+    </p>
+  </div>
+  <div class="metrics">
+    <div><b>08</b><span><span lang="es">ETAPAS</span><span lang="en">STAGES</span></span><small><span lang="es">del registro público a formación y bajas</span><span lang="en">from public registration to training and exits</span></small></div>
+    <div><b>06</b><span>ROLES</span><small><span lang="es">permisos definidos por etapa</span><span lang="en">permissions defined per stage</span></small></div>
+    <div><b>28</b><span><span lang="es">MODELOS</span><span lang="en">MODELS</span></span><small><span lang="es">estructura de datos del sistema</span><span lang="en">the system's data structure</span></small></div>
+    <div><b>87</b><span><span lang="es">MIGRACIONES</span><span lang="en">MIGRATIONS</span></span><small><span lang="es">evolución controlada de la base</span><span lang="en">controlled evolution of the database</span></small></div>
+  </div>
+  <div class="project__detail">
+    <div><span class="label"><span lang="es">QUÉ RESUELVE</span><span lang="en">WHAT IT SOLVES</span></span><p><span lang="es">Unifica el recorrido del aspirante, conserva el historial de cada movimiento y reduce la dependencia de papel y hojas de cálculo.</span><span lang="en">It unifies the applicant's journey, keeps a history of every action, and cuts reliance on paper and spreadsheets.</span></p></div>
+    <div><span class="label"><span lang="es">POR QUÉ IMPORTA</span><span lang="en">WHY IT MATTERS</span></span><p><span lang="es">La trazabilidad no es un adorno: permite saber qué ocurrió, quién actuó y en qué etapa está cada expediente.</span><span lang="en">Traceability isn't decoration: it lets you know what happened, who acted, and what stage every file is at.</span></p></div>
+    <div><span class="label">STACK</span><p>Laravel 13 · Livewire 4 · Reverb · MySQL · Fortify · Blade</p></div>
+  </div>
+  <div class="private"><span>●</span> <span lang="es">SISTEMA INTERNO SIN APROBAR · INFORMACIÓN RESERVADA</span><span lang="en">UNAPPROVED INTERNAL SYSTEM · RESTRICTED INFORMATION</span></div>
+</section>
+
+<section class="section architecture" data-section="03">
+  <div class="section__head"><span>03 / <span lang="es">ARQUITECTURA</span><span lang="en">ARCHITECTURE</span></span><small><span lang="es">BAJO LA SUPERFICIE</span><span lang="en">BELOW THE SURFACE</span></small></div>
+  <div class="architecture__grid">
+    <div>
+      <p class="kicker">SIGR / <span lang="es">ESTRUCTURA</span><span lang="en">STRUCTURE</span></p>
+      <h2><span lang="es">Orden detrás<br>de la interfaz.</span><span lang="en">Order behind<br>the interface.</span></h2>
+      <p class="lead">
+        <span lang="es">La experiencia visible es solo la última capa. Debajo hay reglas, permisos, estados, bitácoras y migraciones que hacen que el proceso sea consistente.</span>
+        <span lang="en">The visible experience is only the last layer. Underneath are rules, permissions, states, logs, and migrations that keep the process consistent.</span>
+      </p>
+    </div>
+    <div class="diagram">
+      <div class="node node--main"><span>SIGR</span><small>CORE</small></div>
+      <div class="node node--a"><span><span lang="es">ASPIRANTE</span><span lang="en">APPLICANT</span></span><small><span lang="es">REGISTRO</span><span lang="en">SIGN-UP</span></small></div>
+      <div class="node node--b"><span><span lang="es">ETAPAS</span><span lang="en">STAGES</span></span><small>WORKFLOW</small></div>
+      <div class="node node--c"><span>ROLES</span><small>ACCESS</small></div>
+      <div class="node node--d"><span><span lang="es">BITÁCORA</span><span lang="en">LOG</span></span><small>AUDIT</small></div>
+      <i class="line l1"></i><i class="line l2"></i><i class="line l3"></i><i class="line l4"></i>
+    </div>
+  </div>
+  <div class="statline">
+    <span>289 <small><span lang="es">ARCHIVOS DE PRUEBA</span><span lang="en">TEST FILES</span></small></span>
+    <span>24/7 <small><span lang="es">TRAZABILIDAD DEL FLUJO</span><span lang="en">FLOW TRACEABILITY</span></small></span>
+    <span>01 <small><span lang="es">FUENTE DE VERDAD</span><span lang="en">SOURCE OF TRUTH</span></small></span>
+  </div>
+</section>
+
+<section class="section timeline" data-section="04">
+  <div class="section__head"><span>04 / <span lang="es">EXPERIENCIA</span><span lang="en">EXPERIENCE</span></span><small><span lang="es">TRAYECTORIA</span><span lang="en">CAREER PATH</span></small></div>
+  <h2><span lang="es">Una carrera construida<br><em>entre tecnología y operación.</em></span><span lang="en">A career built<br><em>between technology and operations.</em></span></h2>
+  <div class="timeline__list">
+    <article>
+      <span>2025 — <span lang="es">HOY</span><span lang="en">NOW</span></span>
+      <div>
+        <h3><span lang="es">Encargado de Acreditación CALEA</span><span lang="en">CALEA Accreditation Manager</span></h3>
+        <p><span lang="es">Centro de Profesionalización de la Fiscalía de Coahuila</span><span lang="en">Professionalization Center, Coahuila Attorney General's Office</span></p>
+        <ul>
+          <li><span lang="es">Dirijo la acreditación institucional: directivas, manuales, procedimientos y evidencias para auditoría.</span><span lang="en">I lead institutional accreditation: directives, manuals, procedures, and evidence for audits.</span></li>
+          <li><span lang="es">Asesoro a las áreas en la interpretación y aplicación de estándares y coordino auditorías internas.</span><span lang="en">I advise departments on interpreting and applying standards, and coordinate internal audits.</span></li>
+          <li><span lang="es">Desarrollé el SIGR para digitalizar el proceso de reclutamiento y selección.</span><span lang="en">I built SIGR to digitize the recruitment and selection process.</span></li>
+        </ul>
+      </div>
+    </article>
+    <article>
+      <span>2020 — 2025</span>
+      <div>
+        <h3><span lang="es">Coordinador de Tecnologías y Capacitación</span><span lang="en">Technology and Training Coordinator</span></h3>
+        <p><span lang="es">Centro de Profesionalización de la Fiscalía de Coahuila</span><span lang="en">Professionalization Center, Coahuila Attorney General's Office</span></p>
+        <ul>
+          <li><span lang="es">Desarrollé la plataforma de gestión interna y automaticé certificados y diplomas con QR.</span><span lang="en">I built the internal management platform and automated certificates and diplomas with QR codes.</span></li>
+          <li><span lang="es">Diseñé material gráfico institucional y herramientas para el personal.</span><span lang="en">I designed institutional graphic material and tools for staff.</span></li>
+          <li><span lang="es">Introduje IA generativa al flujo de diseño del área.</span><span lang="en">I introduced generative AI into the department's design workflow.</span></li>
+        </ul>
+      </div>
+    </article>
+    <article>
+      <span>2011 — 2016</span>
+      <div><h3><span lang="es">Soporte técnico</span><span lang="en">Technical support</span></h3><p>Ciber Premier</p></div>
+    </article>
+  </div>
+</section>
+
+<section class="section capability" data-section="05">
+  <div class="section__head"><span>05 / <span lang="es">CAPACIDADES</span><span lang="en">CAPABILITIES</span></span><small><span lang="es">STACK + OFICIO</span><span lang="en">STACK + CRAFT</span></small></div>
+  <div class="capability__intro">
+    <h2><span lang="es">Herramientas<br>con propósito.</span><span lang="en">Tools<br>with purpose.</span></h2>
+    <p class="lead">
+      <span lang="es">No se trata de acumular tecnologías. Se trata de saber cuándo cada una resuelve mejor el problema.</span>
+      <span lang="en">It's not about stacking up technologies. It's about knowing which one solves the problem best.</span>
+    </p>
+  </div>
+  <div class="capability__grid">
+    <article><span>01</span><h3><span lang="es">Desarrollo</span><span lang="en">Development</span></h3><p><span lang="es">PHP, Laravel, Livewire, Blade, MySQL, Reverb, JavaScript, HTML, CSS y Bootstrap.</span><span lang="en">PHP, Laravel, Livewire, Blade, MySQL, Reverb, JavaScript, HTML, CSS, and Bootstrap.</span></p></article>
+    <article><span>02</span><h3><span lang="es">Procesos</span><span lang="en">Process</span></h3><p><span lang="es">Acreditación CALEA, gestión documental, análisis y documentación de procesos, auditorías internas y mejora continua.</span><span lang="en">CALEA accreditation, document management, process analysis and documentation, internal audits, and continuous improvement.</span></p></article>
+    <article><span>03</span><h3><span lang="es">IA generativa</span><span lang="en">Generative AI</span></h3><p><span lang="es">ComfyUI, Flux, MidJourney y asistentes de código aplicados a producción. Video generativo en aprendizaje.</span><span lang="en">ComfyUI, Flux, MidJourney, and AI coding assistants applied in production. Generative video, still learning.</span></p></article>
+    <article><span>04</span><h3><span lang="es">Diseño</span><span lang="en">Design</span></h3><p><span lang="es">Identidad institucional, material gráfico para cursos, eventos y campañas de difusión.</span><span lang="en">Institutional identity, graphic material for courses, events, and outreach campaigns.</span></p></article>
+  </div>
+</section>
+
+<section class="section other" data-section="06">
+  <div class="section__head"><span>06 / <span lang="es">OTROS PROYECTOS</span><span lang="en">OTHER PROJECTS</span></span><small><span lang="es">AUTOMATIZACIÓN</span><span lang="en">AUTOMATION</span></small></div>
+  <div class="other__grid">
+    <div>
+      <span class="project-no">A / 2020—25</span>
+      <h2><span lang="es">Certificados<br><em>automatizados.</em></span><span lang="en">Automated<br><em>certificates.</em></span></h2>
+      <p><span lang="es">Generación automática desde plantillas de Word y Excel, con códigos QR de verificación. Sustituyó el llenado y la emisión manual de documentos oficiales.</span><span lang="en">Automatic generation from Word and Excel templates, with QR verification codes. Replaced manual filling and issuing of official documents.</span></p>
+    </div>
+    <div>
+      <span class="project-no">B / 2020—25</span>
+      <h2><span lang="es">Gestión<br><em>interna.</em></span><span lang="en">Internal<br><em>management.</em></span></h2>
+      <p><span lang="es">Aplicación web en Laravel y Bootstrap para organizar procesos internos del Centro de Profesionalización.</span><span lang="en">Web application in Laravel and Bootstrap to organize internal processes at the Professionalization Center.</span></p>
+    </div>
+  </div>
+</section>
+
+<section class="section education" data-section="07">
+  <div class="section__head"><span>07 / <span lang="es">FORMACIÓN</span><span lang="en">EDUCATION</span></span><small><span lang="es">BASE</span><span lang="en">FOUNDATION</span></small></div>
+  <div class="education__grid">
+    <div>
+      <p class="kicker"><span lang="es">FORMACIÓN ACADÉMICA</span><span lang="en">ACADEMIC BACKGROUND</span></p>
+      <h2><span lang="es">Ingeniería en<br><em>Tecnologías de la Información.</em></span><span lang="en">B.Eng. in<br><em>Information Technology.</em></span></h2>
+      <p class="lead">Universidad Tecnológica de Coahuila · 2014—2018</p>
+    </div>
+    <div class="education__facts">
+      <div><span><span lang="es">POR CUENTA PROPIA</span><span lang="en">SELF-TAUGHT</span></span><p><span lang="es">Laravel, Livewire, Reverb y arquitectura de aplicaciones. El stack con el que trabajo hoy lo aprendí construyéndolo.</span><span lang="en">Laravel, Livewire, Reverb, and application architecture. I learned the stack I work with today by building it.</span></p></div>
+      <div><span><span lang="es">IDIOMAS</span><span lang="en">LANGUAGES</span></span><p><span lang="es">Español nativo · Inglés intermedio</span><span lang="en">Native Spanish · Intermediate English</span></p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact" data-section="08">
+  <div class="contact__halo"></div>
+  <div class="section__head"><span>08 / <span lang="es">CONTACTO</span><span lang="en">CONTACT</span></span><small>FINAL / BEGIN AGAIN</small></div>
+  <p class="kicker"><span lang="es">¿TIENES UN PROCESO QUE SE PUEDE HACER MEJOR?</span><span lang="en">HAVE A PROCESS THAT COULD BE BETTER?</span></p>
+  <h2><span lang="es">Hablemos de<br><em>lo que sigue.</em></span><span lang="en">Let's talk about<br><em>what's next.</em></span></h2>
+  <div class="contact__links">
+    <a href="mailto:vyxgonzalez@gmail.com">vyxgonzalez@gmail.com <span>↗</span></a>
+    <a href="tel:+528442285214">844 228 5214 <span>↗</span></a>
+    <span><span lang="es">Saltillo, Coahuila, México</span><span lang="en">Saltillo, Coahuila, Mexico</span></span>
+  </div>
+  <footer>
+    <span>VAGM / SYSTEMS</span><span>© 2026</span><span><span lang="es">FIN DEL RECORRIDO</span><span lang="en">END OF THE JOURNEY</span></span>
+  </footer>
+</section>
+</main>
+
+<div class="hud" id="hud"><span>SCROLL <b id="hudPct">00</b>%</span><span>FRAME <b id="hudFrame">000</b></span></div>
+<script type="module" src="pro.js"></script>
+</body>
+</html>
